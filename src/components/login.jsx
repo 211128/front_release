@@ -21,7 +21,7 @@ export default function Login() {
     }
 
     try {
-      const response = await fetch('http://localhost:3006/api/v1/login', {
+      const response = await fetch('https://users.entranat.site/login', {
         method: 'POST',
         mode: 'no-cors',
         headers: {
