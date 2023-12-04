@@ -70,7 +70,7 @@ export default function Register() {
 
             const response = await fetch('https://users.entranat.site/register/', {
                 method: 'POST',
-                type: 'cors',
+                mode: 'no-cors',
                 headers: {
                     'Content-Type': 'application/json',
                 },

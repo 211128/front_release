@@ -50,6 +50,7 @@ const parsedUser = JSON.parse(storedUser);
 
       const response = await fetch('https://muscles.entranat.site/add', {
         method: 'POST',
+        mode: 'no-cors',
         headers: {
           'Content-Type': 'application/json',
         },
