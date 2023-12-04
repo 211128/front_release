@@ -17,7 +17,7 @@ export default function Routers() {
 
         <Route path="/stats" element={<Bar />} />
 
-        <Route path="/" element={<Login />} />
+        <Route path="/login" element={<Login />} />
         <Route path="/muscles" element={<Exercises />} />
         <Route path="/perfil" element={<Profile></Profile>} />
         <Route path="/registro" element={<Register />} />
